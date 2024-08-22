@@ -3,7 +3,81 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>renterio</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+    </style>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script
+      src="https://kit.fontawesome.com/18e97e51d6.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      .manrope {
+        font-family: "Manrope", sans-serif;
+      }
+    </style>
   </head>
-  <body></body>
+  <body class="manrope">
+    <!-- main section -->
+
+    <header class="bg-slate-500">
+      <!-- nav section -->
+      <nav class="container">
+        <div class="navbar">
+          <div class="navbar-start">
+            <a class="btn btn-ghost text-3xl font-extrabold">Renterio</a>
+          </div>
+          <div class="navbar-center hidden lg:flex">
+            <ul class="menu menu-horizontal px-1">
+              <li><a>Home</a></li>
+              <li><a>Sevices</a></li>
+              <li><a>Portfolio</a></li>
+              <li><a>Blogs</a></li>
+              <li><a>Contact Us</a></li>
+            </ul>
+          </div>
+
+          <div class="flex justify-between gap-6 ml-32">
+            <div
+              class="w-7 h-7 rounded-full bg-white flex justify-center items-center"
+            >
+              <i
+                class="fa-solid fa-magnifying-glass fa-sm"
+                style="color: #030303"
+              ></i>
+            </div>
+            <div
+              class="w-7 h-7 rounded-full bg-white flex justify-center items-center"
+            >
+              <i class="fa-solid fa-cart-shopping" style="color: #000000"></i>
+            </div>
+          </div>
+          <div class="navbar-end">
+            <div>
+              <a class="btn bg-[#ABEF5F]"
+                >Book Consult
+                <div
+                  class="w-7 h-7 rounded-full bg-black flex justify-center items-center"
+                >
+                  <i
+                    class="fa-solid fa-arrow-up fa-rotate-by fa-lg text-sm"
+                    style="color: white; --fa-rotate-angle: 45deg"
+                  ></i>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main></main>
+    <footer></footer>
+  </body>
 </html>
