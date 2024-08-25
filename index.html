@@ -6,7 +6,7 @@
     <title>renterio</title>
 
     <style>
-      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+      @import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..900&display=swap");
     </style>
     <link
       href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
@@ -25,58 +25,103 @@
     </style>
   </head>
   <body class="manrope">
-    <!-- main section -->
-
-    <header class="bg-slate-500">
-      <!-- nav section -->
-      <nav class="container">
-        <div class="navbar">
-          <div class="navbar-start">
-            <a class="btn btn-ghost text-3xl font-extrabold">Renterio</a>
-          </div>
-          <div class="navbar-center hidden lg:flex">
-            <ul class="menu menu-horizontal px-1">
-              <li><a>Home</a></li>
-              <li><a>Sevices</a></li>
-              <li><a>Portfolio</a></li>
-              <li><a>Blogs</a></li>
-              <li><a>Contact Us</a></li>
-            </ul>
-          </div>
-
-          <div class="flex justify-between gap-6 ml-32">
+    <header class="bg-[#f7f7f7]">
+      <!-- navbar----------- -->
+      <nav class="">
+        <div
+          class="flex flex-1 justify-between gap-3 items-center py-5 px-7 container mx-auto"
+        >
+          <div class="flex justify-center gap-3 items-center">
             <div
-              class="w-7 h-7 rounded-full bg-white flex justify-center items-center"
+              class="w-7 h-7 rounded-full bg-[#ABEF5F] flex justify-center items-center"
+            >
+              <i
+                class="fa-solid fa-arrow-up fa-rotate-by fa-lg text-sm"
+                style="color: rgb(0, 0, 0); --fa-rotate-angle: 45deg"
+              ></i>
+            </div>
+            <div>
+              <h2 class="text-3xl font-extrabold">Renterio</h2>
+            </div>
+          </div>
+          <div class="flex justify-center gap-6 items-center list-none">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </div>
+          <div class="flex justify-center gap-3 items-center">
+            <div
+              class="w-10 h-10 rounded-full bg-white flex justify-center items-center"
             >
               <i
                 class="fa-solid fa-magnifying-glass fa-sm"
-                style="color: #030303"
+                style="color: #000000"
               ></i>
             </div>
             <div
-              class="w-7 h-7 rounded-full bg-white flex justify-center items-center"
+              class="w-10 h-10 rounded-full bg-white flex justify-center items-center"
             >
-              <i class="fa-solid fa-cart-shopping" style="color: #000000"></i>
+              <i
+                class="fa-solid fa-cart-shopping fa-sm"
+                style="color: #000000"
+              ></i>
             </div>
-          </div>
-          <div class="navbar-end">
+
             <div>
-              <a class="btn bg-[#ABEF5F]"
-                >Book Consult
+              <button
+                class="px-8 py-3 bg-[#ABEF5F] rounded-3xl text-xl font-bold flex gap-3"
+              >
+                Book Consult
                 <div
                   class="w-7 h-7 rounded-full bg-black flex justify-center items-center"
                 >
                   <i
                     class="fa-solid fa-arrow-up fa-rotate-by fa-lg text-sm"
-                    style="color: white; --fa-rotate-angle: 45deg"
+                    style="color: rgb(255, 251, 251); --fa-rotate-angle: 45deg"
                   ></i>
                 </div>
-              </a>
+              </button>
             </div>
           </div>
         </div>
       </nav>
+      <!-- banner section--------------- -->
+      <div class="hero text-center h-[90vh] leading-6 container mx-auto">
+        <div class="">
+          <div class="flex justify-center">
+            <img src="./assets/banner.png" alt="" />
+          </div>
+          <h1 class="text-5xl font-extrabold py-4">
+            A barn house of this design has a <br />
+            striking appearance
+          </h1>
+          <p class="py-6">
+            The barn house captivates with its blend of rustic charm and modern
+            sophistication, featuring weathered wood, sleek metal <br />
+            accents, and large windows that flood the space with natural light.
+          </p>
+          <div class="flex justify-center items-center pt-4">
+            <button
+              class="px-8 py-3 bg-[#acef5f65] rounded-3xl text-xl font-bold flex gap-3"
+            >
+              Book Consult
+              <div
+                class="w-7 h-7 rounded-full bg-[#ABEF5F] flex justify-center items-center"
+              >
+                <i
+                  class="fa-solid fa-arrow-up fa-rotate-by fa-lg text-sm"
+                  style="color: black; --fa-rotate-angle: 45deg"
+                ></i>
+              </div>
+            </button>
+          </div>
+        </div>
+      </div>
     </header>
+    <!-- main section -->
+
     <main></main>
     <footer></footer>
   </body>
